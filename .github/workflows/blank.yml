@@ -26,10 +26,6 @@ jobs:
       with:
         dotnet-version: 3.1.101
 
-    - name: Initialize CodeQL
-      uses: github/codeql-action/init@v1
-      with:
-        languages: javascript, csharp
 
     - name: Install dependencies
       run: dotnet restore
@@ -38,5 +34,4 @@ jobs:
     - name: Test
       run: dotnet test --no-restore --verbosity normal
 
-    - name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@v1
+
