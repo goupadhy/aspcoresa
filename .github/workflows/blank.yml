@@ -2,6 +2,8 @@
 name: mercuryhealth-web-ci-pr
 
 on:
+  push:
+    branches: [ master ]
   pull_request:
     branches: [ master ]
 
