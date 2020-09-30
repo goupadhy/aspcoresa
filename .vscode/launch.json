@@ -56,6 +56,11 @@
           "path": "${webRoot}/src"
         }
       ]
+    },
+    {
+      "name": "Local Process with Kubernetes",
+      "type": "local-process-with-kubernetes.configuration",
+      "request": "launch"
     }
   ],
   "compounds": [
