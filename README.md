@@ -30,7 +30,7 @@ Original article how to create the starter template is available [here](https://
 **ASP.NET Core 3.1:**
 
 * Web.API
-* Vue CLI and JavaScript Services middlewares to integrate with client app
+* Vue CLI and JavaScript Services middlewares to integrate with client app test
 
 **Vue.js with CLI 4.0 supporting optional integrations:**
 
